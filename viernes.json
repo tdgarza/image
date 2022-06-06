@@ -1,1 +1,33 @@
-[{"id":"1","nombre":"Superman","edad":"30","identidadsecreta":"Clark Kent","poderes":"Vision Calor, Rayos X, Superfuerza"},{"id":"2","nombre":"Superman","edad":"30","identidadsecreta":"Clark Kent","poderes":["Vision Calor","Rayos X","Superfuerza"]},{"id":"3","nombre":"Superman","edad":"30","identidadsecreta":"Clark Kent","poderes":"Vision Calor, Rayos X, Superfuerza"},{"id":"4","nombre":"Wonder Woman","edad":"30","identidadsecreta":"Diana Prince","poderes":"Super fuerza"},{"id":"4","nombre":"Wonder Woman","edad":"30","identidadsecreta":"Diana Prince","poderes":"Agilidad"}]
+[{
+    "id":"1",
+    "nombre":"Superman",
+    "edad":"30",
+    "identidadsecreta":"Clark Kent",
+    "poderes":"Vision Calor, Rayos X, Superfuerza",
+    "image":"1.jpg"
+},
+    {
+    "id":"2",
+    "nombre":"Batman",
+    "edad":"30",
+    "identidadsecreta":"Bruce Wayne",
+    "poderes":["Vision Calor","Rayos X","Superfuerza"],
+    "image":"2.jpg"
+},
+    {
+    "id":"3",
+    "nombre":"Wonder Woman",
+    "edad":"30",
+    "identidadsecreta":"Diana Prince",
+    "poderes":"Super fuerza",
+    "image":"3.jpg"
+},
+{
+"id":"3",
+"nombre":"Wonder Woman",
+"edad":"30",
+"identidadsecreta":"Diana Prince",
+"poderes":"Super fuerza",
+"image":"3.jpg"
+}
+    ]
