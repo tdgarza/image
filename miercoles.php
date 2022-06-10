@@ -6,10 +6,12 @@ if(is_file($filename)){
 }
 $json_arr=json_decode($data, true);
 $json_arr[]=array(
+    'id'=>$_REQUEST['id'],
     'name'=>$_REQUEST['name'],
     'edad'=>$_REQUEST['edad'],
     'identidadsecreta'=>$_REQUEST['identidadsecreta'],
-    'poderes'=>$_REQUEST['poderes']
+    'poderes'=>$_REQUEST['poderes'],
+    'imagen'=>$_REQUEST['imagen']
 );
 file_put_contents($filename, json_encode($json_arr));
 header("Location:http://localhost/image/miercoles.html")
